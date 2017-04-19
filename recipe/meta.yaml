@@ -1,6 +1,6 @@
 {% set name = "cryptography_vectors" %}
-{% set version = "1.4" %}
-{% set sha256 = "0728815ef0c53d67fd437aa5220450a9752d41ecb28108f5df628a092ff466ea" %}
+{% set version = "1.8.1" %}
+{% set sha256 = "2fd61facea08800ca98ac923f6d02f48a7ae6648025b29cdeb51987c1532add6" %}
 
 package:
   name: cryptography-vectors
