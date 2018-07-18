@@ -14,14 +14,16 @@ Summary: Test vectors for the cryptography package.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cryptography-vectors-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cryptography-vectors-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cryptography-vectors-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cryptography-vectors-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cryptography-vectors-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cryptography-vectors-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/cryptography-vectors-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/cryptography-vectors-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/cryptography-vectors-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/cryptography-vectors-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/cryptography-vectors-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/cryptography-vectors-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cryptography-vectors/badges/version.svg)](https://anaconda.org/conda-forge/cryptography-vectors)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cryptography-vectors/badges/downloads.svg)](https://anaconda.org/conda-forge/cryptography-vectors)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cryptography--vectors-green.svg)](https://anaconda.org/conda-forge/cryptography-vectors) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cryptography-vectors.svg)](https://anaconda.org/conda-forge/cryptography-vectors) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cryptography-vectors.svg)](https://anaconda.org/conda-forge/cryptography-vectors) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cryptography-vectors.svg)](https://anaconda.org/conda-forge/cryptography-vectors) |
 
 Installing cryptography-vectors
 ===============================
