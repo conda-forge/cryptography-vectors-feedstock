@@ -1,24 +1,21 @@
 {% set version = "2.3" %}
-{% set sha256 = "356a2ded84ae379e556515eec9b68dd74957651a38465d10605bb9fbae280f15" %}
 
 package:
   name: cryptography-vectors
   version: {{ version }}
 
 source:
-  fn: cryptography_vectors-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/c/cryptography_vectors/cryptography_vectors-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 356a2ded84ae379e556515eec9b68dd74957651a38465d10605bb9fbae280f15
 
 build:
   number: 1
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   host:
     - python
-    - setuptools
-
+    - pip
   run:
     - python
 
