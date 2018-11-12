@@ -3,7 +3,7 @@ About cryptography-vectors
 
 Home: https://github.com/pyca/cryptography
 
-Package license: Apache 2.0 or BSD 3-Clause
+Package license: BSD-3-Clause (or Apache 2.0)
 
 Feedstock license: BSD 3-Clause
 
@@ -14,9 +14,8 @@ Summary: Test vectors for the cryptography package.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/cryptography-vectors-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/cryptography-vectors-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/cryptography-vectors-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/cryptography-vectors-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/cryptography-vectors-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/cryptography-vectors-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cryptography-vectors-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cryptography-vectors-feedstock)
 
 Current release info
 ====================
