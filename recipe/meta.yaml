@@ -9,8 +9,9 @@ source:
   sha256: 829d43e8066056de8ea7b8ad311db79e47d8d658e23d5f5fc4b0245a1b3baa74
 
 build:
-  number: 1000
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  number: 1001
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv"
 
 requirements:
   host:
@@ -25,8 +26,8 @@ test:
 
 about:
   home: https://github.com/pyca/cryptography
-  license: Apache 2.0 or BSD 3-Clause
-  #license_file: ??? TWO LICENSE FILES ???
+  license: BSD-3-Clause (or Apache 2.0)
+  license_file: LICENSE.BSD
   summary: Test vectors for the cryptography package.
   dev_url: https://github.com/pyca/cryptography/tree/master/vectors
   doc_url: https://cryptography.io
