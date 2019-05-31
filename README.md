@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About cryptography-vectors
 ==========================
 
@@ -18,8 +14,17 @@ Summary: Test vectors for the cryptography package.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cryptography-vectors-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cryptography-vectors-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4777&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cryptography-vectors-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
