@@ -5,7 +5,7 @@ Home: https://github.com/pyca/cryptography
 
 Package license: BSD-3-Clause (or Apache 2.0)
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Test vectors for the cryptography package.
 
