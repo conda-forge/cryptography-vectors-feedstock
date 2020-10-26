@@ -5,11 +5,13 @@ Home: https://github.com/pyca/cryptography
 
 Package license: BSD-3-Clause (or Apache 2.0)
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cryptography-vectors-feedstock/blob/master/LICENSE.txt)
 
 Summary: Test vectors for the cryptography package.
 
+Development: https://github.com/pyca/cryptography/tree/master/vectors
 
+Documentation: https://cryptography.io
 
 Current build status
 ====================
