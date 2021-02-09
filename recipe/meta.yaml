@@ -27,7 +27,10 @@ test:
 about:
   home: https://github.com/pyca/cryptography
   license: BSD-3-Clause OR Apache-2.0
-  license_file: LICENSE.BSD
+  license_file:
+    - LICENSE
+    - LICENSE.BSD
+    - LICENSE.APACHE
   summary: Test vectors for the cryptography package.
   dev_url: https://github.com/pyca/cryptography/tree/master/vectors
   doc_url: https://cryptography.io
