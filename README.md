@@ -3,7 +3,7 @@ About cryptography-vectors
 
 Home: https://github.com/pyca/cryptography
 
-Package license: BSD-3-Clause (or Apache 2.0)
+Package license: BSD-3-Clause OR Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cryptography-vectors-feedstock/blob/master/LICENSE.txt)
 
@@ -119,8 +119,4 @@ Feedstock Maintainers
 =====================
 
 * [@jakirkham](https://github.com/jakirkham/)
-* [@jjhelmus](https://github.com/jjhelmus/)
-
-
-<!-- dummy commit to enable rerendering -->
 
