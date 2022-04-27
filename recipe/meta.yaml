@@ -1,4 +1,4 @@
-{% set version = "36.0.2" %}
+{% set version = "37.0.0" %}
 
 package:
   name: cryptography-vectors
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/c/cryptography_vectors/cryptography_vectors-{{ version }}.tar.gz
-  sha256: 2a7924449a03025faf7f8754a6f4200001cab210734a6ce6ac1f6bdacd3a68e4
+  sha256: 7c572a04f3e1b840c151bcc9c3aee8b8b63254cb3a0adba124e25a487e3f9092
 
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -23,6 +23,10 @@ requirements:
 test:
   imports:
     - cryptography_vectors
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/pyca/cryptography
